@@ -8,8 +8,10 @@ application over HTTPS, with only one extra line of configuration.
 The SSL certificates are obtained, and renewed from Let's Encrypt
 automatically.
 
+This is an ARM build of the image.
+
 Docker Hub page:
-[https://hub.docker.com/r/steveltn/https-portal/](https://hub.docker.com/r/steveltn/https-portal/)
+[https://hub.docker.com/r/drzex/https-portal/](https://hub.docker.com/r/drzedx/https-portal/)
 
 ## Table of Contents
 
@@ -398,6 +400,7 @@ According to Let's Encrypt, the restrictions will be loosened over time.
 
 ## Credits
 
+* [https-portal](https://github.com/SteveLTN/https-portal) by Weiyan Shao.
 * [acme-tiny](https://github.com/diafygi/acme-tiny) by Daniel Roesler.
 * [docker-gen](https://github.com/jwilder/docker-gen) by Jason Wilder.
 * [s6-overlay](https://github.com/just-containers/s6-overlay).
