@@ -1,6 +1,6 @@
-FROM nginx:1.12.2
+FROM arm32v7/nginx:1.12.2
 
-MAINTAINER Weiyan Shao "lighteningman@gmail.com"
+MAINTAINER Dario Mattasoglio "drzef85@gmail.com"
 
 WORKDIR /root
 
